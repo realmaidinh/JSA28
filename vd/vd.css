@@ -1,0 +1,63 @@
+.backgr{
+    background-color: dodgerblue;
+    width: 100%;
+    height: 100% ;
+    display: flex;
+
+}
+.t1{
+    text-align: center;
+}   
+.t2{
+    text-align: center;
+}
+.anh1{
+    width: 200px;
+    height: 200px;
+    display: inline-block
+}
+.anh2{
+    width: 200px;
+    height: 200px;
+    display: inline-block
+}   
+.anh3{
+    width: 200px;
+    height: 200px;
+    display: inline-block
+}
+.anh4{
+    width: 200px;
+    height: 200px;
+    display: inline-block
+}
+.anh5{
+    width: 200px;
+    height: 200px;
+    display: inline-block
+}
+.anhh1{
+    margin-left: 100px;
+    display: flex;
+    border-radius: 50%;
+}
+.anhh2{
+    display: flex;
+    margin-left: 100px;
+    border-radius: 50%;
+}
+.anhh3{
+    margin-left: 100px;
+    display: flex;
+    border-radius: 50%;
+}
+.anhh4{
+    margin-left: 100px;
+    display: flex;
+    border-radius: 50%;
+}
+.anhh5{
+    margin-left: 100px;
+    display: flex;
+    border-radius: 50%;
+}

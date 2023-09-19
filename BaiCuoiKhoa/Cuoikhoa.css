@@ -1,0 +1,222 @@
+
+.logo img{
+    width: 70px;
+    height: 70px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 100px;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+/* logo */
+.logo{
+    display: flex;
+    margin-left: 20px;  
+    
+}
+.logo h1{
+    margin-left: 15px;
+}
+.home{
+    margin-left: 270px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.menu a{
+    padding: 20px;
+    font-size: 20px;
+}
+.login{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+.login button{
+    width: 60px;
+    height: 30px;
+}
+.login a{
+    margin-left: 20px;
+}
+.login i{
+    margin-left: 20px;
+}
+
+.dropdown{
+    position: relative;
+}
+.sub-menu{
+    display: none;
+}
+.dropdown:hover .sub-menu{
+    display: inline-block;
+    position: absolute;
+    top: 80px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;
+}
+.main{
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    width: 1445px;
+}
+.anh1 h1{
+    justify-content: center;
+    display: flex;
+}
+.anh1 input{
+    width: 400px;
+    height: 40px;
+    border-radius: 24px;
+    border: 0.5px solid;
+    box-shadow: 0px 1px 3px 0px rgba(60,64,67,.30), 0px 4px 8px 3px rgba(60,64,67,.15);
+}
+.anh1 i{
+    margin-left: 455px;
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    margin-right: 20px;
+}
+.main2 h1{
+    font-size: 70px;
+    color: white;
+    margin-left: 525px;
+    display: inline-block;
+}
+.main2{
+    width: 1473px;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    border: solid 1px;
+}
+.main2 h1{
+    color: black;
+}
+.photo h1{
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 1px;
+}
+.photo h2{
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 1px;
+}
+.photo p{
+    color:white;
+    font-weight: 700;
+    margin-bottom: 1px;
+    width: 500px;
+    margin-bottom: 30px;
+}
+.photo{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin: 20px 0px;
+    
+}
+.photo1{
+    background: url(https://www.insurethebox.com/wp-content/uploads/2017/02/bigstock-151414967-resized.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.photo2{
+    background: url(https://rsf.org/sites/default/files/canada.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.photo3{
+    background: url(http://s1.picswalls.com/wallpapers/2014/07/25/japan-backgrounds_043257803_108.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.photo4{
+    background: url(https://www.thetravelteam.com/wp-content/uploads/2019/07/inside-vietnam.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.photo5{
+    background: url(https://images6.alphacoders.com/995/thumb-1920-995889.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.photo6{
+    background: url(https://www.fodors.com/wp-content/uploads/2021/03/11_WalledCities__Fenghuang_shutterstock_1131697631-1536x1024.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.submit {
+    width: 400px;
+    padding: 30px;
+    margin-bottom: 1em;
+    border: solid 1px rgb(0, 0, 0);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 0.5em;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    
+    
+    
+}
+
+.mainmenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 40px 80px;
+    border-style: solid;
+  }
+  
+.mainmenu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0;
+  }
+  
+.mainmenu .menu1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 40px;
+  }
+.mainmenu a{
+    margin-left: 10px;
+}
+.mainmenu .menu2 i{
+    margin-left: 25px;
+}
+.overlay{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.text-photo{
+    z-index: 99;
+    text-align: center;
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/b25957ae4f.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        width: 250px;
+        height: 1000px;
+        background-color: rgba(142, 136, 136, 0.186);
+        position: fixed;
+      }
+
+      .settings {
+        padding-top: 10px;
+        margin-left: 15px;
+      }
+
+      .former {
+        padding-top: 30px;
+        margin-left: 15px;
+      }
+
+      .search_container {
+        width: 200px;
+        height: 30px;
+        background-color: white;
+        margin-top: 20px;
+        margin-left: 15px;
+        border-color: rgba(245, 245, 245, 0.037);
+        position: relative;
+      }
+
+      .Personalization {
+        margin-top: 20px;
+        margin-left: 15px;
+      }
+
+      .section {
+        margin-top: 20px;
+        margin-left: 15px;
+      }
+
+      i {
+        margin-right: 10px;
+      }
+
+      .search_container .icon_search {
+        width: 100%;
+        height: 100%;
+        position: relative;
+      }
+
+      .search_container input {
+        width: 100%;
+        height: 30px;
+        padding-left: 10px;
+      }
+
+      .search_container i {
+        position: absolute;
+        right: -10px;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        margin-right: 0px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="settings">
+        <i><i class="fa-solid fa-arrow-left"></i></i> Settings
+      </div>
+      <div class="former">
+        <i><i class="fa-solid fa-house" style="color: #000000"></i></i>Home
+      </div>
+      <div class="search_container">
+        <div class="icon_search">
+          <input
+            style="border: none"
+            type="text"
+            placeholder="Find a setting"
+          />
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+      <div class="Personalization">
+        <h1 style="font-size: medium">Personalization</h1>
+      </div>
+      <div class="former">
+        <i><i class="fa-solid fa-image"></i></i>Background
+      </div>
+      <div class="section">
+        <i><i class="fa-solid fa-palette"></i></i>Color
+      </div>
+      <div class="section">
+        <i><i class="fa-solid fa-house-lock"></i></i>Lock screen
+      </div>
+      <div class="section">
+        <i><i class="fa-solid fa-paintbrush"></i></i>Themes
+      </div>
+      <div class="section">
+        <i><i class="fa-solid fa-font"></i></i>Fonts
+      </div>
+      <div class="section">
+        <i><i class="fa-solid fa-bars-progress"></i></i>Start
+      </div>
+      <div class="section">
+        <i><i class="fa-solid fa-rectangle-list"></i></i>Taskbar
+      </div>
+    </div>
+  </body>
+</html>
+

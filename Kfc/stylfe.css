@@ -1,0 +1,37 @@
+.anh{
+    display: inline-block;
+    margin: 30px 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-sizing: border-box;
+    padding: 10px ;
+}
+
+
+img {
+    width: 200px;
+    height: 200px;
+}
+.a1{
+    color: red;
+}
+.a2{
+    color: rgb(225, 255, 0);
+}
+.a3{
+    color: rgb(0, 255, 140);
+}
+.a4{
+    color: rgb(0, 255, 4);
+}
+.a5{
+    color: rgb(0, 255, 221);
+}
+.a6{
+    color: rgb(0, 34, 255);
+}
+.a7{
+    color: rgb(208, 0, 255);
+}
+.a8{
+    color: rgb(255, 0, 204);
+}

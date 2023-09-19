@@ -1,0 +1,82 @@
+img {
+    width: 100%;
+    
+}
+
+.gg
+{
+    display: inline;
+}
+.g2{
+    color: gray;
+    display: inline;
+    margin-left: 10px;
+    font-weight: bold;
+
+}
+.lol
+{
+    display: inline
+}
+
+.ggwp{
+    color:gray;
+    display:block;
+    margin: 15px 0px;
+}
+.ggez{
+    font-weight: bold;
+    font-size: 19px;
+    color: red;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.card {
+    margin-top: 100px;
+    margin-left: 50px;
+    width: 248px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 10px;
+    border-radius: 15px;
+  }
+  .g1 {
+    font-weight: bold;
+    font-size: 19px;
+    color: red;
+    margin: 15px 0px;
+    display: inline;
+  }
+.card h3
+{
+    font-size: 15px;
+     margin-bottom: 30px;
+}
+.lol span
+ {
+    color: grey;
+  }
+
+.lol h2 
+  {
+    font-size: 20px;
+    display: inline;
+    color: red;
+  }
+
+.lol
+ {
+    margin: 15px 0px;
+}
+.bien
+{
+    padding: 6px;
+    border: 1px red solid;
+    border-radius: 10px;
+    color: red;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,238 @@
+
+
+main {
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.about {
+    flex: 40%;
+    margin-bottom: 30px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 100px;
+    
+    
+}
+
+.title {
+    padding: 40px;
+}
+
+.sign-up {
+    width: 100%;
+}
+
+.container {
+    width: 350px;
+    border-radius: 40px;
+    box-shadow: 0 8px 0px rgba(0 0 0/0.15);
+    background-color: #ffffff;
+    text-align: center;
+    border: solid 2px black;
+    color: black;
+}
+
+.main {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    border: solid 1px;
+}
+
+.sign {
+    width: 100%;
+    flex: 50%;
+}
+
+.sign span {
+    position: absolute;
+    top: 10%;
+    right: 0;
+    padding: 0 0.65em;
+    border-radius: 50%;
+    background-color: #ff7a7a;
+    color: white;
+    display: none;
+}
+
+.sign span {
+    display: inline-block;
+}
+
+.sign input {
+    width: 318px;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    border: solid 1px;
+}
+
+.sign:focus {
+    outline: none;
+    border: 2px solid #b9b6d3;
+}
+
+
+
+.sign p {
+    color: #ff7a7a;
+}
+
+.submit {
+    cursor: pointer;
+    width: 100%;
+    padding: 1em;
+    margin-bottom: 1em;
+    border: solid 1px gray;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 0.5em;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+}
+
+.submit :hover {
+    background-color: #5dd5a1;
+}
+
+.form-term {
+    margin-bottom: 0.75em;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.help span {
+    font-weight: 700;
+    color: red;
+    
+}
+
+.mainmenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 40px 80px;
+    border-style: solid;
+    border: solid 3px black;
+}
+
+.mainmenu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mainmenu .menu1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.mainmenu .menu2 i {
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+.container1 {
+    position: relative;
+}
+
+.logo img {
+    width: 70px;
+    height: 70px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 100px;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.sub-menu {
+    display: none;
+}
+
+.dropdown:hover .sub-menu {
+    display: inline-block;
+    position: absolute;
+    top: 80px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    ;
+}
+
+/* logo */
+.logo{
+    display: flex;
+    margin-left: 20px;  
+    
+}
+.logo h1{
+    margin-left: 15px;
+}
+.home{
+    margin-left: 270px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.menu a{
+    padding: 20px;
+    font-size: 20px;
+}
+.login{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+.login button{
+    width: 60px;
+    height: 30px;
+}
+.login a{
+    margin-left: 20px;
+}
+.login i{
+    margin-left: 20px;
+}
+
+
+.flex-container {
+    display: flex;
+    width: 1300px;
+    margin-top: 120px;
+}
+footer{
+    margin-top: 25px;
+}
+.mainmenu a{
+    margin-left: 10px;
+}

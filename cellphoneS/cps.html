@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cellphones</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+      }
+      .card { 
+        margin-top: 100px;
+        margin-left: 50px;
+        width: 248px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        padding: 10px;
+        border-radius: 15px;
+      }
+
+      .card img {
+        width: 100%;
+      }
+
+      .card h3 {
+        font-size: 15px;
+        margin-bottom: 30px;
+      }
+
+      .card h3:hover {
+        color: blue;
+      }
+
+      .price span {
+        font-weight: bold;
+        font-size: 19px;
+        color: red;
+        margin-right: 10px;
+      }
+
+      .price del {
+        font-weight: bold;
+        color: grey;
+      }
+
+      .support_price span {
+        color: grey;
+      }
+
+      .support_price h2 {
+        font-size: 20px;
+        display: inline;
+        color: red;
+      }
+
+      .support_price {
+        margin: 15px 0px;
+      }
+
+      .delivery {
+        padding: 6px;
+        border: 1px red solid;
+        border-radius: 10px;
+        color: red;
+        margin-bottom: 20px;
+      }
+
+      .star {
+        margin-top: 18px;
+        margin-bottom: 30px;
+      }
+
+      .favor {
+        color: grey;
+        text-align: right;
+      }
+
+      .fa-heart {
+        font-size: 20px;
+        color: red;
+      }
+
+      .fa-solid {
+        display: none !important;
+      }
+
+      .fa-regular:hover ~ .fa-solid {
+        display: inline-block !important;
+      }
+    </style>
+
+    <script
+      src="https://kit.fontawesome.com/b25957ae4f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="card">
+      <img
+        src="https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/t/_/t_m_18.png"
+        alt=""
+      />
+
+      <h3>iPhone 14 Pro Max 128GB | Chính hãng VN/A</h3>
+      <!-- price -->
+      <div class="price">
+        <span>26.590.000đ</span>
+        <del>29.990.000đ</del>
+      </div>
+
+      <!-- support price -->
+      <div class="support_price">
+        <span>Giá lên đời: </span>
+        <h2>24.590.000đ</h2>
+      </div>
+
+      <span class="delivery"> Giao nhanh miễn phí</span>
+
+      <div class="star">⭐⭐⭐⭐⭐</div>
+
+      <p class="favor">
+        Yêu thích
+        <i class="fa-regular fa-heart"></i>
+        <i class="fa-solid fa-heart"></i>
+      </p>
+    </div>
+  </body>
+</html>

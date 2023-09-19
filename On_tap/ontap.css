@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.container{
+    position: relative;
+    width: 1000px;
+    background-color: black;
+}
+.navigation{
+    position: fixed;
+    background-color: burlywood;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 100px;
+}
+.box{
+    width: 150px;
+    height: 150px;
+}
+.box1{
+    background-color: aqua;
+    position: absolute;
+
+    right: 0px;
+    
+}
+.box2{
+    background-color: red;
+}
+.box3{
+    background-color: greenyellow;
+}
+.box4{
+    background-color: orange;
+}
+.box5{
+    background-color: pink;
+}
+

@@ -1,0 +1,57 @@
+.container h1{
+    margin-left: 700px;
+}
+.container input{
+    margin-left: 590px;
+    margin-top: 20px;
+    height: 30px;
+    width: 300px;
+}
+.container p{
+    margin-left: 687px;
+    color: rgb(0, 161, 214);
+}
+.container button{
+    color: white;
+    background-color: deepskyblue;
+    width: 305px;
+    height: 30px;
+    margin-left: 590px;
+}
+.Forgot{
+    margin-left: 640px;
+}
+.adu{
+    display: flex;
+    align-items: center;
+}
+.singup{
+    color: deepskyblue;
+}
+.or{
+    margin-left: 735px;
+    color: gray;
+}
+.fb{
+    color: white;
+    background-color: rgb(0, 158, 210);
+    width: 305px;
+    height: 30px;
+    margin-left: 590px;
+}
+.fb p{
+    margin-left: 85px;
+    padding-top: 5px;
+}
+.gg{
+    color: rgb(146, 146, 146);
+    background-color: white;
+    width: 305px;
+    height: 30px;
+    margin-left: 590px;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+.gg p{
+    margin-left: 90px;
+}
